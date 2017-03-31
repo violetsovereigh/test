@@ -1,0 +1,76 @@
+
+/*** Containers ***/
+.ls-wrapper {
+  clear: both;
+  overflow: auto;
+  position: relative;
+}
+.liquid-slider {
+  background: transparent;
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+/*** Panels ***/
+.liquid-slider .ls-panel {  
+  width: 100vw;
+  margin-left:1vw;
+  margin-right:1vw;
+  display: block;
+  float: left;
+}
+.panel-wrapper {  
+  padding-top:2vw;
+  padding-left: 4vw;
+  width:80vw;
+  height:33vw;
+  position:relative;
+}
+
+
+/*** Arrow Navigation (graphical) ***/
+.ls-nav-left-arrow, .ls-nav-right-arrow {
+  cursor: pointer;
+  float: left;
+  clear: both;
+}
+.ls-nav-left-arrow a, .ls-nav-right-arrow a {
+  display: block;
+}
+[class$="-arrow"] {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  margin-top: 15vw;
+  position:relative;
+}
+.ls-nav-right-arrow {
+  background-position: top right;  
+  margin-right: 5px;
+}
+.ls-nav-left-arrow {
+  background-position: top left;  
+  margin-left: 5px;
+}
+.ls-nav-left-arrow:hover {
+  background-position: bottom left;
+}
+.ls-nav-right-arrow:hover {
+  background-position: bottom right;
+}
+.ls-responsive .ls-nav-left-arrow {
+  position: absolute;
+  left: 0;
+  top:20px;
+  z-index: 2;
+}
+.ls-responsive .ls-nav-right-arrow {
+  position: absolute;
+  right: 0;
+  top:20px;
+  z-index: 2;
+}

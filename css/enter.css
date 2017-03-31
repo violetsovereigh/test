@@ -1,0 +1,92 @@
+/*#contain{
+	display: inline-block;
+	width: 1000px;
+	height:1000px;
+	background-color: red;
+	position: absolute;
+	z-index: 10;
+}
+#star{
+	
+	display: inline-block;
+	position: absolute;
+	z-index: 9;
+}*/
+
+body{margin:0px;border:0px;padding: 0px;}
+#container {
+    position: fixed;
+    top: 40%;
+    left:50%;
+    width: 93%;
+    height:50%;
+   margin: auto;
+    margin-left:-48%;
+}
+#container .storystar {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#container .characterstar {
+    position: absolute;
+width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#container .createstar {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#container .contactstar {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#storyimg{
+    height:200px;
+    width:200px;
+    position: absolute;
+    z-index: 3;
+}
+#characterimg{
+    height:200px;
+    width:200px;
+    position: absolute;
+    z-index: 1;
+    margin-top:-50px;
+}
+#createimg{
+    height:200px;
+    width:200px;
+    position: absolute;
+    z-index: 1;
+}
+#contactimg{
+     height:200px;
+    width:200px;
+    position: absolute;
+    z-index: 1;
+}

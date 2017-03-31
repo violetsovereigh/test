@@ -1,0 +1,118 @@
+.l-demo-container {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.example-chat {   /*聊天內容*/
+    font-family:華康娃娃體W7;
+    border-radius: 1vw;
+    background-color: #B7C4EA;
+    border: 0.5vw solid #B79EEA;
+    overflow: auto;
+    padding: 0px;
+    font-size: 3vw;
+    line-height: 1.5vw;
+    color: #666; 
+}
+
+
+.example-chat header {
+    background-color: #ECEDEA;
+    border-radius: 1vw 0px;
+    border-bottom: 0.5vw solid #B79EEA;
+    line-height: 3.5vw;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #438AEA; 
+}
+
+
+
+.example-chat input {/*打留言*/
+box-sizing: border-box;
+font-family:華康娃娃體W7;
+    border-radius: 0.5vw;
+    padding: 0px 1vw;
+    height:3vw;
+    font-size: 2.5vw;
+    width: 100%;
+    font-weight: normal;
+    outline: none; 
+}
+
+
+
+.example-chat .example-chat-toolbar {
+    background-color: #FFF;
+    padding: 1vw;
+    position: relative;
+}
+
+
+
+.example-chat .example-chat-toolbar label {
+    text-transform: uppercase;
+    line-height:3vw;
+    font-size: 2.5vw;
+    color: #638AEA;
+    font-family:華康娃娃體W7;
+    position: absolute;
+    top: qvw;
+    left: 1vw;
+    z-index: 1; 
+}
+
+
+
+.example-chat .example-chat-toolbar input {/*打名字*/
+    box-shadow: none;
+    border: 0.5vw solid #FFF;
+    padding-left: 12vw;
+    color: #999;
+    font-family:華康娃娃體W7; 
+}
+
+
+.example-chat .example-chat-toolbar input:active, .example-chat .example-chat-toolbar .example-chat .example-chat-toolbar input:focus {
+    color: #1d9aff;
+    border: 1vw solid #FFF; 
+}
+
+
+.example-chat ul {
+    list-style: none;
+    margin: 0px;
+    padding: 1vw;
+    height: 19vw;
+    overflow: auto; 
+}
+
+
+.example-chat ul li {
+    margin-bottom: 1vw;
+    line-height: 2vw; 
+}
+
+
+.example-chat ul li:last-child {
+    margin: 0px; 
+}
+
+
+.example-chat ul .example-chat-username {
+    margin-right: 1vw; 
+}
+
+
+.example-chat footer {
+    display: block;
+    padding: 1vw; 
+}
+
+
+.example-chat footer .example-chat footer input {
+    border: 1vw solid #ced3db;
+    height: 4vw; 
+}
+
+/*# sourceMappingURL=chat.css.map */

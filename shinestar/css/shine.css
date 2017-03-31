@@ -1,0 +1,42 @@
+body{
+    background-image: url(../images/宇宙背景.png);
+    margin:0;
+	padding: 0;
+	border:0;
+	overflow: hidden;
+}
+#shinestar1{
+  position:fixed;
+  left:50%;
+  top: 20%;
+}
+#shinestar2{
+  position:fixed;
+  left:70%;
+  top: 30%;
+}
+#shinestar3{
+  position:fixed;
+  left:20%;
+  top: 70%;
+}
+#shinestar4{
+  position:fixed;
+  left:10%;
+  top: 80%;
+}
+#shinestar5{
+  position:fixed;
+  left:90%;
+  top: 50%;
+}
+#shinestar6{
+  position:fixed;
+  left:60%;
+  top: 10%;
+}
+#shinestar7{
+  position:fixed;
+  left:90%;
+  top: 20%;
+}

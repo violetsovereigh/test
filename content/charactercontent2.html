@@ -1,0 +1,48 @@
+<!doctype html>
+<html style="width=100%;height: 100%;">
+<head>
+	<meta charset="UTF-8">
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1"><!--RWD-->
+<style>
+.item {
+    float: left;
+    width: 21vw;
+    height: 22vw;
+    border-radius:0.4vw;
+    margin-bottom: 2vw;
+}
+</style>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+
+  <script type="text/javascript">
+  $(function () {
+    $('#container').masonry({
+        itemSelector : '.item', 
+            columnWidth : 100,
+      isAnimated: true,
+    });
+  });
+  </script>
+
+</head>
+<body >
+  <div id="container">
+        <div class="item" ><img src="gallery/draw1.png" style="width: 20vw; height: 19vw;"></div>
+        <div class="item" ><img src="gallery/draw2.png"style="width: 20vw; height: 19vw;"></div>
+        <div class="item" ><img src="gallery/draw3.png"style="width: 21vw; height: 19vw;"></div>  
+        <div class="item" ><img src="gallery/draw4.png"style="width: 21vw; height: 19vw;"></div> 
+
+        <div class="item" ><img src="gallery/draw5.png"style="width: 20vw; height: 22vw;margin-bottom: 10vw;"></div> 
+        <div class="item" ><img src="gallery/draw6.png"style="width: 20vw; height: 22vw;margin-bottom: 10vw;"></div>
+        <div class="item" ><img src="gallery/draw7.png"style="width: 21vw; height: 19vw;"></div>   
+        <div class="item" ><img src="gallery/draw8.png"style="width: 21vw; height: 19vw;"></div> 
+
+        <div class="item" ><img src="gallery/draw9.png"style="width: 21vw; height: 26vw;"></div>
+        <div class="item" ><img src="gallery/draw10.png"style="width: 21vw; height: 26vw;"></div>
+    </div>
+</body>
+
+</html>

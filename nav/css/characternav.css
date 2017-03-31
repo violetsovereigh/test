@@ -1,0 +1,61 @@
+
+#select2-1{
+	width:18vw;
+	height:9vw;
+	position: fixed;
+	left:84%;
+	margin-left: -4vw;
+	background-color: transparent;
+	z-index:4;
+}
+#select2-2{
+	width:18vw;
+	height:9vw;
+	position: fixed;
+	left:71%;
+	margin-left: -4vw;
+	background-color: transparent;
+	z-index:4;
+}
+	#select2-3{
+	width:18vw;
+	height:9vw;
+	position: fixed;
+	left:54%;
+	margin-left: -4vw;
+	background-color: transparent;
+	z-index:4;
+}
+	#select2-4{
+	width:18vw;
+	height:9vw;
+	position: fixed;
+	left:30%;
+	margin-left: -4vw;
+	background-color: transparent;
+	z-index:4;
+}
+img{
+	width:100%;
+	height:100%;
+	margin-top: -1vw;
+}
+.menu{
+	font-family:華康浪漫輝W9;
+	font-size:130%;
+}
+a{
+	text-decoration:none;
+}
+#select2-1{
+	margin-top: 2.5vw;
+}
+#select2-2{
+	margin-top: 2.5vw;
+}
+#select2-3{
+	margin-top: 2.5vw;
+}
+a:hover { 
+    color: #9A96EA;
+}

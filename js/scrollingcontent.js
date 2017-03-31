@@ -1,0 +1,46 @@
+$(document).ready(function(){
+  $('#enterclick').click(function(){
+    $('#story2').fadeIn(700);
+    });
+  });
+
+
+$(document).ready(function(){
+  $('#storyclick').click(function(){
+    $('#character2').fadeOut(1000,function(){
+      $('#creative2').fadeOut(1000,function(){
+         $('#contact2').fadeOut(1000,function(){
+            $('#story2').fadeIn(700);
+           });
+        });
+      });
+  });
+  $('#characterclick').click(function(){
+      $('#story2').fadeOut(2000,function(){
+        $('#creative2').fadeOut(2000,function(){
+            $('#contact2').fadeOut(2000,function(){
+               $('#character2').fadeIn(700);
+                     });
+        });
+      });
+    });
+    $('#creativeclick').click(function(){
+      $('#character2').fadeOut(2000,function(){
+        $('#contact2').fadeOut(2000,function(){
+          $('#story2').fadeOut(2000,function(){
+            $('#creative2').fadeIn(700);
+                });
+        });
+      });
+    });
+    $('#contactclick').click(function(){
+        $('#creative2').fadeOut(2000,function(){
+            $('#character2').fadeOut(2000,function(){
+                $('#story2').fadeOut(2000,function(){
+                    $('#contact2').fadeIn(700);
+                });
+            });
+        });
+    });
+
+});

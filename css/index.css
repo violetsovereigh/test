@@ -1,0 +1,255 @@
+body{margin:0px;border:0px;padding: 0px;}
+
+
+
+
+.all{
+		width:100%;
+		height:100%;
+		z-index:-1;
+	}
+.A{
+	width:20%;
+	height:100%;
+	display: inline;
+	float:left;
+	z-index:0;
+
+}
+.B{
+	width:80%;
+	height:100%;
+	display: inline;
+	float:left;
+	z-index:0;
+}
+
+
+
+
+@media screen and (min-width:650px){
+	body{background-color: transparent;}
+#earth2{
+	width:30vw;
+	height:40vw;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -15vw;
+	margin-top: -20vw;
+	background-color: blue;
+	z-index:10;
+}
+#earth1-img{
+	position: absolute;
+	z-index:10;
+}
+#a{
+	position: absolute;
+	z-index:15;
+	margin-top:-5vw;
+	margin-left: -1vw;
+}
+a{
+	text-decoration:none;
+}
+#a p{
+	color:#2D2487;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 5vw;
+}
+#a p:hover{
+	color: #2D52EC;
+}
+
+#fly{
+	position: absolute;
+	z-index:11;
+}
+
+.select{
+	display: inline-block;//正圓形，所以寬與高都設一樣
+    border-top:0px solid none;
+    border-right:5vw solid transparent;
+    border-left: 5vw solid transparent;
+    border-bottom: 7vw solid transparent;
+    border-radius: 4vw;
+    position: fixed;
+	z-index: 0;
+
+}
+.select p{
+	color:#FAF2AC;
+}
+.select p:hover{
+	color: white;
+}
+
+#select2-1{
+	transform:rotate(183deg);
+	position: fixed;
+	left:99.5%;
+	top:62%;
+	margin-right: -6.1803398875vw;
+	margin-left: -5.1803398875vw;
+	z-index:0;
+}
+#select2-1 p{
+	font-family:華康浪漫輝W9 ;
+	font-size: 2vw;
+	display: inline-block;
+	position:fixed;
+	z-index:3;
+	left:50%;
+	right: 50%;
+	margin-top: 3vw;
+	margin-left: -3.4vw;
+	margin-right: -4.5vw;
+	transform: rotate(-90deg);
+}
+
+#select2-2{
+	transform:rotate(150deg);
+	position: fixed;
+	left:98.5%;
+	top:70%;
+	margin-right: 3.9803398875vw;
+	margin-left: -11.560679775vw;
+	margin-top: -2.008141589vw;
+	z-index:0;
+}
+#select2-2 p{
+	font-family:華康浪漫輝W9 ;
+	font-size: 2vw;
+	display: inline-block;
+	position:fixed;
+	z-index:3;
+	left:50%;
+	right: 50%;
+	margin-top: 2.4vw;
+	margin-left: -4.5vw;
+	margin-right: -4.5vw;
+	transform: rotate(270deg);
+}
+
+#select2-3{
+	transform:rotate(115deg);
+	position: fixed;
+	left:83%;
+	top:79%;
+	margin-right:-11.360679775vw;
+	margin-left:-1vw;
+	margin-top: -2.008141589vw;
+	z-index:0;
+}
+#select2-3 p{
+	font-family:華康浪漫輝W9 ;
+	font-size: 2vw;
+	display: inline-block;
+	position:fixed;
+	z-index:3;
+	left:50%;
+	right: 50%;
+	margin-top: 10vw;
+	margin-left: 0.5vw;
+	margin-right: 3.5vw;
+	transform: rotate(-90deg);
+}
+
+#select2-4{
+	transform:rotate(90deg);
+	position: fixed;
+	left:95.5%;
+	top:98%;
+	margin-right: 12.360679775vw;
+	margin-left: -16.26882136vw;
+	margin-top: -5vw;
+	z-index:0;
+}
+#select2-4 p{
+	font-family:華康浪漫輝W9 ;
+	font-size: 2vw;
+	display: inline-block;
+	position:fixed;
+	z-index:3;
+	left:50%;
+	right: 50%;
+	margin-top: 2.4vw;
+	margin-left: -4.5vw;
+	margin-right: -4.5vw;
+	transform: rotate(270deg);
+}
+
+
+
+#story2{
+	width:60vw;
+	height:30vw;
+	position: absolute;
+	left:150%;
+	top:5%;
+	margin-left: -30vw;
+	margin-top: -1vw;
+	background-color: #B1E1EF;
+	z-index:2;
+	display: none;
+}
+#character2{
+	width:60vw;
+	height:30vw;
+	position: absolute;
+	left:250%;
+	top:5%;
+	margin-left: -30vw;
+	margin-top: -1vw;
+	background-color: #B1E1EF;
+	z-index:2;
+	display: none;
+}
+#creative2{
+	width:60vw;
+	height:30vw;
+	position: absolute;
+	left:350%;
+	top:5%;
+	margin-left: -30vw;
+	margin-top: -1vw;
+	background-color: #B1E1EF;
+	z-index:2;
+	display: none;
+}
+#contact2{
+	width:60vw;
+	height:30vw;
+	position: absolute;
+	left:450%;
+	top:5%;
+	margin-left: -30vw;
+	margin-top: -1vw;
+	background-color:#B1E1EF;
+	z-index:2;
+	display: none;
+}
+
+.containerr{
+	width:100%;
+	height:100%;
+	display: inline;
+	float:left;
+}
+.container2{
+	width:25%;
+	height:100%;
+	display: inline;
+	float:left;
+}
+
+.all img{
+	width:500%;
+	height:100%;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}

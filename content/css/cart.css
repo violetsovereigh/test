@@ -1,0 +1,15 @@
+
+#cart{
+	position:fixed;
+	width: 6.2vw;
+	height: 12vw;
+	z-index:5;
+	margin-left: 91vw;
+	display: inline-block;
+	float: right;
+	padding:0.1vw;
+	background-color:#DFE9E9;
+	color: white;
+	font-size: 1vw;
+	text-align: center;
+}

@@ -1,0 +1,55 @@
+body{
+    margin:0;
+	padding: 0;
+	border:0;
+	overflow: hidden;
+}
+#shinestar1{
+  width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:50%;
+  top: 20%;
+}
+#shinestar2{
+  width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:70%;
+  top: 30%;
+}
+#shinestar3{
+   width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:20%;
+  top: 70%;
+}
+#shinestar4{
+   width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:10%;
+  top: 80%;
+}
+#shinestar5{
+   width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:90%;
+  top: 50%;
+}
+#shinestar6{
+   width: 7vw;
+  height: 6vh;
+  position:absolute;
+  left:60%;
+  top: 10%;
+}
+#shinestar7{
+   width: 7vw;
+  height: 6vh;
+  position:fixed;
+  left:90%;
+  top: 20%;
+}
